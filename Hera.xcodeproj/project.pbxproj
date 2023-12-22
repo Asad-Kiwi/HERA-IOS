@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8084178654EA3AC951F6ADE9 /* Pods_Hera.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D008B0ABD08232384D057DF9 /* Pods_Hera.framework */; };
+		895AD4CDA0012D677E7393C9 /* Pods_Hera_HeraUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FA1568E8194B00B2028DAB1 /* Pods_Hera_HeraUITests.framework */; };
+		D61FE0EB2B232345004CCFE8 /* HelpVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61FE0EA2B232345004CCFE8 /* HelpVideo.swift */; };
+		D61FE0ED2B2323B2004CCFE8 /* HERAVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D61FE0EC2B2323B2004CCFE8 /* HERAVideo.mp4 */; };
+		D61FE0EF2B232409004CCFE8 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D61FE0EE2B232409004CCFE8 /* AVKit.framework */; };
+		D676581F2B285197005BDB39 /* CardStack in Frameworks */ = {isa = PBXBuildFile; productRef = D676581E2B285197005BDB39 /* CardStack */; };
+		D67658212B2868B2005BDB39 /* SmDashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67658202B2868B2005BDB39 /* SmDashboard.swift */; };
+		D67658232B288356005BDB39 /* DashboardDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67658222B288356005BDB39 /* DashboardDetail.swift */; };
+		D67658242B288F21005BDB39 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D61FE0EE2B232409004CCFE8 /* AVKit.framework */; };
+		D676C7A32B29D139006323E8 /* CardStackCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = D676C7A22B29D139006323E8 /* CardStackCustom.swift */; };
+		D6876CD92B0F2F54000D82D1 /* FloatingLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6876CD82B0F2F54000D82D1 /* FloatingLabelTextField.swift */; };
+		D691B20B2B14BBE50087663F /* Dashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D691B20A2B14BBE50087663F /* Dashboard.swift */; };
+		D691B20D2B14CCF30087663F /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D691B20C2B14CCF30087663F /* NetworkManager.swift */; };
 		D6939D5F2B0DE232003B47F2 /* HeraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6939D5E2B0DE232003B47F2 /* HeraApp.swift */; };
 		D6939D612B0DE232003B47F2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6939D602B0DE232003B47F2 /* ContentView.swift */; };
 		D6939D632B0DE233003B47F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6939D622B0DE233003B47F2 /* Assets.xcassets */; };
@@ -14,6 +27,28 @@
 		D6939D702B0DE233003B47F2 /* HeraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6939D6F2B0DE233003B47F2 /* HeraTests.swift */; };
 		D6939D7A2B0DE233003B47F2 /* HeraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6939D792B0DE233003B47F2 /* HeraUITests.swift */; };
 		D6939D7C2B0DE233003B47F2 /* HeraUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6939D7B2B0DE233003B47F2 /* HeraUITestsLaunchTests.swift */; };
+		D6939D8B2B0DE443003B47F2 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6939D8A2B0DE443003B47F2 /* Launch Screen.storyboard */; };
+		D6939D8F2B0DE63D003B47F2 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6939D8E2B0DE63D003B47F2 /* LoginView.swift */; };
+		D6939DBA2B0DF827003B47F2 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D6939D952B0DF826003B47F2 /* OpenSans-Light.ttf */; };
+		D6939DBB2B0DF827003B47F2 /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D6939D962B0DF826003B47F2 /* OpenSans-LightItalic.ttf */; };
+		D6939DBC2B0DF827003B47F2 /* OpenSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D6939D972B0DF826003B47F2 /* OpenSans-Medium.ttf */; };
+		D6939DBD2B0DF827003B47F2 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D6939D982B0DF826003B47F2 /* OpenSans-Regular.ttf */; };
+		D6939DC02B0DF827003B47F2 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D6939D9B2B0DF826003B47F2 /* OpenSans-Bold.ttf */; };
+		D6939DC22B0DF827003B47F2 /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D6939D9D2B0DF826003B47F2 /* OpenSans-ExtraBoldItalic.ttf */; };
+		D6939DC52B0DF827003B47F2 /* OpenSans-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D6939DA02B0DF826003B47F2 /* OpenSans-MediumItalic.ttf */; };
+		D6939DC62B0DF827003B47F2 /* OpenSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D6939DA12B0DF826003B47F2 /* OpenSans-SemiBoldItalic.ttf */; };
+		D6939DCC2B0DF827003B47F2 /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D6939DA72B0DF827003B47F2 /* OpenSans-Italic.ttf */; };
+		D6939DD42B0DF827003B47F2 /* OpenSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D6939DAF2B0DF827003B47F2 /* OpenSans-SemiBold.ttf */; };
+		D6939DD52B0DF827003B47F2 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D6939DB02B0DF827003B47F2 /* OpenSans-ExtraBold.ttf */; };
+		D6939DD82B0DF827003B47F2 /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D6939DB32B0DF827003B47F2 /* OpenSans-BoldItalic.ttf */; };
+		D6939DD92B0DF827003B47F2 /* Preview Content in Resources */ = {isa = PBXBuildFile; fileRef = D6939DB42B0DF827003B47F2 /* Preview Content */; };
+		D6939DDD2B0DF876003B47F2 /* AuthScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6939DDC2B0DF876003B47F2 /* AuthScreen.swift */; };
+		D6939DE12B0E132F003B47F2 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6939DE02B0E132F003B47F2 /* SignupView.swift */; };
+		D6A276AA2B17644500676302 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A276A92B17644500676302 /* Profile.swift */; };
+		D6D18D402B1DA93F00912D54 /* SimpleToast in Frameworks */ = {isa = PBXBuildFile; productRef = D6D18D3F2B1DA93F00912D54 /* SimpleToast */; };
+		D6FEAB442B19B66900B32B02 /* Inbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FEAB432B19B66900B32B02 /* Inbox.swift */; };
+		D6FEAB462B19DA3E00B32B02 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FEAB452B19DA3E00B32B02 /* ActivityIndicator.swift */; };
+		D6FEAB4A2B19FE7600B32B02 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FEAB492B19FE7600B32B02 /* Toast.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,16 +69,52 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		37AFB82A4B59AE5CA7325875 /* Pods-Hera-HeraUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hera-HeraUITests.debug.xcconfig"; path = "Target Support Files/Pods-Hera-HeraUITests/Pods-Hera-HeraUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5725518812750489190900F0 /* Pods-Hera-HeraUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hera-HeraUITests.release.xcconfig"; path = "Target Support Files/Pods-Hera-HeraUITests/Pods-Hera-HeraUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9FA1568E8194B00B2028DAB1 /* Pods_Hera_HeraUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hera_HeraUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A57384F86D6C6F2982805730 /* Pods-Hera.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hera.release.xcconfig"; path = "Target Support Files/Pods-Hera/Pods-Hera.release.xcconfig"; sourceTree = "<group>"; };
+		D008B0ABD08232384D057DF9 /* Pods_Hera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hera.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D61FE0EA2B232345004CCFE8 /* HelpVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpVideo.swift; sourceTree = "<group>"; };
+		D61FE0EC2B2323B2004CCFE8 /* HERAVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = HERAVideo.mp4; path = ../../../../Downloads/HERAVideo.mp4; sourceTree = "<group>"; };
+		D61FE0EE2B232409004CCFE8 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		D67658202B2868B2005BDB39 /* SmDashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmDashboard.swift; sourceTree = "<group>"; };
+		D67658222B288356005BDB39 /* DashboardDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardDetail.swift; sourceTree = "<group>"; };
+		D676C7A22B29D139006323E8 /* CardStackCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardStackCustom.swift; sourceTree = "<group>"; };
+		D6876CD82B0F2F54000D82D1 /* FloatingLabelTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingLabelTextField.swift; sourceTree = "<group>"; };
+		D691B20A2B14BBE50087663F /* Dashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dashboard.swift; sourceTree = "<group>"; };
+		D691B20C2B14CCF30087663F /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		D6939D5B2B0DE232003B47F2 /* Hera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6939D5E2B0DE232003B47F2 /* HeraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeraApp.swift; sourceTree = "<group>"; };
 		D6939D602B0DE232003B47F2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D6939D622B0DE233003B47F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6939D652B0DE233003B47F2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		D6939D6B2B0DE233003B47F2 /* HeraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6939D6B2B0DE233003B47F2 /* ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6939D6F2B0DE233003B47F2 /* HeraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeraTests.swift; sourceTree = "<group>"; };
 		D6939D752B0DE233003B47F2 /* HeraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6939D792B0DE233003B47F2 /* HeraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeraUITests.swift; sourceTree = "<group>"; };
 		D6939D7B2B0DE233003B47F2 /* HeraUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeraUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D6939D8A2B0DE443003B47F2 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		D6939D8E2B0DE63D003B47F2 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		D6939D952B0DF826003B47F2 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		D6939D962B0DF826003B47F2 /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		D6939D972B0DF826003B47F2 /* OpenSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Medium.ttf"; sourceTree = "<group>"; };
+		D6939D982B0DF826003B47F2 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		D6939D9B2B0DF826003B47F2 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		D6939D9D2B0DF826003B47F2 /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		D6939DA02B0DF826003B47F2 /* OpenSans-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-MediumItalic.ttf"; sourceTree = "<group>"; };
+		D6939DA12B0DF826003B47F2 /* OpenSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		D6939DA72B0DF827003B47F2 /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		D6939DAF2B0DF827003B47F2 /* OpenSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		D6939DB02B0DF827003B47F2 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		D6939DB32B0DF827003B47F2 /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		D6939DB42B0DF827003B47F2 /* Preview Content */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Preview Content"; sourceTree = "<group>"; };
+		D6939DDC2B0DF876003B47F2 /* AuthScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthScreen.swift; sourceTree = "<group>"; };
+		D6939DE02B0E132F003B47F2 /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		D6A276A92B17644500676302 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		D6FEAB432B19B66900B32B02 /* Inbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inbox.swift; sourceTree = "<group>"; };
+		D6FEAB452B19DA3E00B32B02 /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		D6FEAB492B19FE7600B32B02 /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		F96645800D94C4DC0E8CBEC9 /* Pods-Hera.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hera.debug.xcconfig"; path = "Target Support Files/Pods-Hera/Pods-Hera.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +122,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6D18D402B1DA93F00912D54 /* SimpleToast in Frameworks */,
+				D676581F2B285197005BDB39 /* CardStack in Frameworks */,
+				D67658242B288F21005BDB39 /* AVKit.framework in Frameworks */,
+				8084178654EA3AC951F6ADE9 /* Pods_Hera.framework in Frameworks */,
+				D61FE0EF2B232409004CCFE8 /* AVKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,12 +141,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				895AD4CDA0012D677E7393C9 /* Pods_Hera_HeraUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A92682A1F62645D4DE864583 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F96645800D94C4DC0E8CBEC9 /* Pods-Hera.debug.xcconfig */,
+				A57384F86D6C6F2982805730 /* Pods-Hera.release.xcconfig */,
+				37AFB82A4B59AE5CA7325875 /* Pods-Hera-HeraUITests.debug.xcconfig */,
+				5725518812750489190900F0 /* Pods-Hera-HeraUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D6939D522B0DE232003B47F2 = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +166,8 @@
 				D6939D6E2B0DE233003B47F2 /* HeraTests */,
 				D6939D782B0DE233003B47F2 /* HeraUITests */,
 				D6939D5C2B0DE232003B47F2 /* Products */,
+				A92682A1F62645D4DE864583 /* Pods */,
+				F9F23F0ADA120B5AC9C3FC28 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,7 +175,7 @@
 			isa = PBXGroup;
 			children = (
 				D6939D5B2B0DE232003B47F2 /* Hera.app */,
-				D6939D6B2B0DE233003B47F2 /* HeraTests.xctest */,
+				D6939D6B2B0DE233003B47F2 /* ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES.xctest */,
 				D6939D752B0DE233003B47F2 /* HeraUITests.xctest */,
 			);
 			name = Products;
@@ -94,10 +184,39 @@
 		D6939D5D2B0DE232003B47F2 /* Hera */ = {
 			isa = PBXGroup;
 			children = (
+				D61FE0EC2B2323B2004CCFE8 /* HERAVideo.mp4 */,
+				D6939DDC2B0DF876003B47F2 /* AuthScreen.swift */,
+				D6939DE02B0E132F003B47F2 /* SignupView.swift */,
+				D6939D9B2B0DF826003B47F2 /* OpenSans-Bold.ttf */,
+				D6939DB32B0DF827003B47F2 /* OpenSans-BoldItalic.ttf */,
+				D6939DB02B0DF827003B47F2 /* OpenSans-ExtraBold.ttf */,
+				D6939D9D2B0DF826003B47F2 /* OpenSans-ExtraBoldItalic.ttf */,
+				D6876CD82B0F2F54000D82D1 /* FloatingLabelTextField.swift */,
+				D6939DA72B0DF827003B47F2 /* OpenSans-Italic.ttf */,
+				D6939D952B0DF826003B47F2 /* OpenSans-Light.ttf */,
+				D6939D962B0DF826003B47F2 /* OpenSans-LightItalic.ttf */,
+				D6939D972B0DF826003B47F2 /* OpenSans-Medium.ttf */,
+				D6939DA02B0DF826003B47F2 /* OpenSans-MediumItalic.ttf */,
+				D6939D982B0DF826003B47F2 /* OpenSans-Regular.ttf */,
+				D6939DAF2B0DF827003B47F2 /* OpenSans-SemiBold.ttf */,
+				D6939DA12B0DF826003B47F2 /* OpenSans-SemiBoldItalic.ttf */,
+				D6939DB42B0DF827003B47F2 /* Preview Content */,
 				D6939D5E2B0DE232003B47F2 /* HeraApp.swift */,
 				D6939D602B0DE232003B47F2 /* ContentView.swift */,
 				D6939D622B0DE233003B47F2 /* Assets.xcassets */,
 				D6939D642B0DE233003B47F2 /* Preview Content */,
+				D6939D8A2B0DE443003B47F2 /* Launch Screen.storyboard */,
+				D6939D8E2B0DE63D003B47F2 /* LoginView.swift */,
+				D676C7A22B29D139006323E8 /* CardStackCustom.swift */,
+				D6FEAB492B19FE7600B32B02 /* Toast.swift */,
+				D67658222B288356005BDB39 /* DashboardDetail.swift */,
+				D691B20A2B14BBE50087663F /* Dashboard.swift */,
+				D67658202B2868B2005BDB39 /* SmDashboard.swift */,
+				D691B20C2B14CCF30087663F /* NetworkManager.swift */,
+				D6A276A92B17644500676302 /* Profile.swift */,
+				D6FEAB432B19B66900B32B02 /* Inbox.swift */,
+				D6FEAB452B19DA3E00B32B02 /* ActivityIndicator.swift */,
+				D61FE0EA2B232345004CCFE8 /* HelpVideo.swift */,
 			);
 			path = Hera;
 			sourceTree = "<group>";
@@ -127,6 +246,16 @@
 			path = HeraUITests;
 			sourceTree = "<group>";
 		};
+		F9F23F0ADA120B5AC9C3FC28 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D61FE0EE2B232409004CCFE8 /* AVKit.framework */,
+				D008B0ABD08232384D057DF9 /* Pods_Hera.framework */,
+				9FA1568E8194B00B2028DAB1 /* Pods_Hera_HeraUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,22 +263,28 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D6939D7F2B0DE233003B47F2 /* Build configuration list for PBXNativeTarget "Hera" */;
 			buildPhases = (
+				C5ECE3A9C2A5500DB8EAA7CB /* [CP] Check Pods Manifest.lock */,
 				D6939D572B0DE232003B47F2 /* Sources */,
 				D6939D582B0DE232003B47F2 /* Frameworks */,
 				D6939D592B0DE232003B47F2 /* Resources */,
+				B93CE323A20AA83B69994816 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Hera;
+			packageProductDependencies = (
+				D6D18D3F2B1DA93F00912D54 /* SimpleToast */,
+				D676581E2B285197005BDB39 /* CardStack */,
+			);
 			productName = Hera;
 			productReference = D6939D5B2B0DE232003B47F2 /* Hera.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D6939D6A2B0DE233003B47F2 /* HeraTests */ = {
+		D6939D6A2B0DE233003B47F2 /* ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D6939D822B0DE233003B47F2 /* Build configuration list for PBXNativeTarget "HeraTests" */;
+			buildConfigurationList = D6939D822B0DE233003B47F2 /* Build configuration list for PBXNativeTarget "ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES" */;
 			buildPhases = (
 				D6939D672B0DE233003B47F2 /* Sources */,
 				D6939D682B0DE233003B47F2 /* Frameworks */,
@@ -160,18 +295,20 @@
 			dependencies = (
 				D6939D6D2B0DE233003B47F2 /* PBXTargetDependency */,
 			);
-			name = HeraTests;
+			name = ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES;
 			productName = HeraTests;
-			productReference = D6939D6B2B0DE233003B47F2 /* HeraTests.xctest */;
+			productReference = D6939D6B2B0DE233003B47F2 /* ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		D6939D742B0DE233003B47F2 /* HeraUITests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D6939D852B0DE233003B47F2 /* Build configuration list for PBXNativeTarget "HeraUITests" */;
 			buildPhases = (
+				9C7B4AC6F448963961FD900E /* [CP] Check Pods Manifest.lock */,
 				D6939D712B0DE233003B47F2 /* Sources */,
 				D6939D722B0DE233003B47F2 /* Frameworks */,
 				D6939D732B0DE233003B47F2 /* Resources */,
+				9F11F9FF5D2E2C3CCD2CC9BF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -215,12 +352,16 @@
 				Base,
 			);
 			mainGroup = D6939D522B0DE232003B47F2;
+			packageReferences = (
+				D6D18D3E2B1DA93F00912D54 /* XCRemoteSwiftPackageReference "SimpleToast" */,
+				D676581D2B285197005BDB39 /* XCRemoteSwiftPackageReference "CardStack" */,
+			);
 			productRefGroup = D6939D5C2B0DE232003B47F2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				D6939D5A2B0DE232003B47F2 /* Hera */,
-				D6939D6A2B0DE233003B47F2 /* HeraTests */,
+				D6939D6A2B0DE233003B47F2 /* ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES */,
 				D6939D742B0DE233003B47F2 /* HeraUITests */,
 			);
 		};
@@ -231,7 +372,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6939DBD2B0DF827003B47F2 /* OpenSans-Regular.ttf in Resources */,
+				D6939DC62B0DF827003B47F2 /* OpenSans-SemiBoldItalic.ttf in Resources */,
+				D6939DD82B0DF827003B47F2 /* OpenSans-BoldItalic.ttf in Resources */,
+				D6939DBA2B0DF827003B47F2 /* OpenSans-Light.ttf in Resources */,
+				D6939DCC2B0DF827003B47F2 /* OpenSans-Italic.ttf in Resources */,
+				D6939D8B2B0DE443003B47F2 /* Launch Screen.storyboard in Resources */,
+				D6939DD42B0DF827003B47F2 /* OpenSans-SemiBold.ttf in Resources */,
+				D61FE0ED2B2323B2004CCFE8 /* HERAVideo.mp4 in Resources */,
+				D6939DD92B0DF827003B47F2 /* Preview Content in Resources */,
+				D6939DD52B0DF827003B47F2 /* OpenSans-ExtraBold.ttf in Resources */,
+				D6939DC22B0DF827003B47F2 /* OpenSans-ExtraBoldItalic.ttf in Resources */,
 				D6939D662B0DE233003B47F2 /* Preview Assets.xcassets in Resources */,
+				D6939DC52B0DF827003B47F2 /* OpenSans-MediumItalic.ttf in Resources */,
+				D6939DBC2B0DF827003B47F2 /* OpenSans-Medium.ttf in Resources */,
+				D6939DBB2B0DF827003B47F2 /* OpenSans-LightItalic.ttf in Resources */,
+				D6939DC02B0DF827003B47F2 /* OpenSans-Bold.ttf in Resources */,
 				D6939D632B0DE233003B47F2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,13 +408,108 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9C7B4AC6F448963961FD900E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hera-HeraUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F11F9FF5D2E2C3CCD2CC9BF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hera-HeraUITests/Pods-Hera-HeraUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hera-HeraUITests/Pods-Hera-HeraUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Hera-HeraUITests/Pods-Hera-HeraUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B93CE323A20AA83B69994816 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hera/Pods-Hera-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hera/Pods-Hera-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Hera/Pods-Hera-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5ECE3A9C2A5500DB8EAA7CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hera-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D6939D572B0DE232003B47F2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D67658232B288356005BDB39 /* DashboardDetail.swift in Sources */,
+				D6939D8F2B0DE63D003B47F2 /* LoginView.swift in Sources */,
+				D6FEAB4A2B19FE7600B32B02 /* Toast.swift in Sources */,
+				D6939DDD2B0DF876003B47F2 /* AuthScreen.swift in Sources */,
 				D6939D612B0DE232003B47F2 /* ContentView.swift in Sources */,
+				D67658212B2868B2005BDB39 /* SmDashboard.swift in Sources */,
 				D6939D5F2B0DE232003B47F2 /* HeraApp.swift in Sources */,
+				D61FE0EB2B232345004CCFE8 /* HelpVideo.swift in Sources */,
+				D691B20D2B14CCF30087663F /* NetworkManager.swift in Sources */,
+				D6FEAB462B19DA3E00B32B02 /* ActivityIndicator.swift in Sources */,
+				D6876CD92B0F2F54000D82D1 /* FloatingLabelTextField.swift in Sources */,
+				D676C7A32B29D139006323E8 /* CardStackCustom.swift in Sources */,
+				D691B20B2B14BBE50087663F /* Dashboard.swift in Sources */,
+				D6A276AA2B17644500676302 /* Profile.swift in Sources */,
+				D6FEAB442B19B66900B32B02 /* Inbox.swift in Sources */,
+				D6939DE12B0E132F003B47F2 /* SignupView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,7 +583,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -347,6 +598,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
@@ -395,7 +647,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -404,6 +656,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -416,6 +669,7 @@
 		};
 		D6939D802B0DE233003B47F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F96645800D94C4DC0E8CBEC9 /* Pods-Hera.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -428,6 +682,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -445,6 +700,7 @@
 		};
 		D6939D812B0DE233003B47F2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A57384F86D6C6F2982805730 /* Pods-Hera.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -457,6 +713,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -514,6 +771,7 @@
 		};
 		D6939D862B0DE233003B47F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37AFB82A4B59AE5CA7325875 /* Pods-Hera-HeraUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +790,7 @@
 		};
 		D6939D872B0DE233003B47F2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5725518812750489190900F0 /* Pods-Hera-HeraUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -569,7 +828,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D6939D822B0DE233003B47F2 /* Build configuration list for PBXNativeTarget "HeraTests" */ = {
+		D6939D822B0DE233003B47F2 /* Build configuration list for PBXNativeTarget "ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D6939D832B0DE233003B47F2 /* Debug */,
@@ -588,6 +847,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D676581D2B285197005BDB39 /* XCRemoteSwiftPackageReference "CardStack" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/notsobigcompany/CardStack";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		D6D18D3E2B1DA93F00912D54 /* XCRemoteSwiftPackageReference "SimpleToast" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sanzaru/SimpleToast";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.8.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D676581E2B285197005BDB39 /* CardStack */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D676581D2B285197005BDB39 /* XCRemoteSwiftPackageReference "CardStack" */;
+			productName = CardStack;
+		};
+		D6D18D3F2B1DA93F00912D54 /* SimpleToast */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D6D18D3E2B1DA93F00912D54 /* XCRemoteSwiftPackageReference "SimpleToast" */;
+			productName = SimpleToast;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D6939D532B0DE232003B47F2 /* Project object */;
 }

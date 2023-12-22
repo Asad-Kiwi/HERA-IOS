@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "cardstack",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/notsobigcompany/CardStack",
+      "state" : {
+        "revision" : "33417ef29fdc4169712cb3b8bf0ddbd7b6ef52c5",
+        "version" : "1.0.0"
+      }
+    },
+    {
+      "identity" : "simpletoast",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/sanzaru/SimpleToast",
+      "state" : {
+        "revision" : "8dbc2e7c33cda25c0b2efafd59716cb9820c83eb",
+        "version" : "0.8.1"
+      }
+    }
+  ],
+  "version" : 2
+}
